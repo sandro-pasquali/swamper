@@ -1,0 +1,29 @@
+{
+  "name": "swamper",
+  "version": "1.0.0",
+  "description": "Keep your application dependencies tidy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sandro pasquali <spasquali@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "npm",
+    "dependencies",
+    "ast",
+    "modules",
+    "versions",
+    "build"
+  ],
+  "engines": { 
+  	"node" : ">=0.12.7" 
+  },
+  "dependencies": {
+    "anthology": "^1.0.0",
+    "depcheck": "^0.5.9",
+    "node-rss": "^1.0.5",
+    "npm-check": "^4.1.2",
+    "npm-check-updates": "^2.4.0"
+  }
+}
